@@ -312,7 +312,7 @@ span.no:before {
   background: #37474F;
 }
 
-.highlight, code {
+.highlight, code, .payload {
   background: #263238;
 }
 
