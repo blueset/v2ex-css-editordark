@@ -372,6 +372,7 @@ div#Tabs{ background-color: #37474F!important; }
 .box a.page_normal {
     background: none;
     border: none;
+    box-shadow: none;
 }
 
 .box a.page_current {
@@ -380,8 +381,19 @@ div#Tabs{ background-color: #37474F!important; }
     border: 0;
     font-weight: normal;
     padding: 3px 0;
+    box-shadow: none;
 }
 
 .box a.page_current:before {content: "[";}
 
 .box a.page_current:after {content: "]";}
+
+.box input.page_input {
+    background: none;
+    box-shadow: none;
+}
+
+.box input.page_input:focus {
+    color: rgba(255,255,255,0.8);
+    outline: none;
+}
