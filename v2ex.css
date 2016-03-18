@@ -93,6 +93,8 @@ body {
   border-left: 0;
   border-right: 0;
   border-color: rgba(128, 203, 196, 1);
+  color: rgba(255,255,255,0.8);
+  outline: none;
 }
 
 .box a, a.tb:link, a.tb:visited, a.tb:active {
@@ -363,3 +365,23 @@ a.op:before {
 a.op:after {
   content: " ]";
 }
+
+
+div#Tabs{ background-color: #37474F!important; }
+
+.box a.page_normal {
+    background: none;
+    border: none;
+}
+
+.box a.page_current {
+    color: #FFCF1B;
+    background: none;
+    border: 0;
+    font-weight: normal;
+    padding: 3px 0;
+}
+
+.box a.page_current:before {content: "[";}
+
+.box a.page_current:after {content: "]";}
